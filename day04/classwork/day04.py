@@ -1,0 +1,6 @@
+a = float(input("please enter a number: "))
+b = float(input("please enter a number: "))
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
