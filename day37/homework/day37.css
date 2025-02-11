@@ -1,0 +1,27 @@
+#common-heading{
+    color: red;
+    font-size: 36px;
+}
+
+.unique-heading{
+    color: green;
+    font-size: 30px;
+    font-family: 'Times New Roman', serif;
+}
+
+body{
+    font-family: 'Times New Roman', serif;;
+    color: cyan;
+}
+h1{
+    color: rgb(red, green, blue);
+}
+.normal{
+    color: brown;
+}
+.rgb{
+    color: rgb(red, green, blue);
+}
+.hex{
+    color: #0000FF;
+}
