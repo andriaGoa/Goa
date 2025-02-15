@@ -1,0 +1,14 @@
+a{
+    font-size: 100px;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: black;
+    background-color: blue;
+}
+a:active{
+    background-color: white;
+    font-size: 200px;
+}

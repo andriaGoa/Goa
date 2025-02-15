@@ -1,0 +1,17 @@
+.parent{
+    width: 1000px;
+    height: 300px;
+}
+.child{
+    width: 70%;
+    height: 100%;
+    color: white;
+}
+.nested-blue{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+.nested-blue p{
+    font-size: 16px;
+}

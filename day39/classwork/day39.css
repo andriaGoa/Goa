@@ -1,0 +1,15 @@
+.red_dotted{
+    color: black;
+    border-top: 2px dotted red;
+    border-bottom: 2px dotted red;
+}
+.green_wave{
+    color: black;
+    border-bottom: 2px green;
+}
+.blue_dotted_center {
+    color: black;
+    border-top: 2px dotted blue;
+    border-bottom: 2px dotted blue;
+    text-align: center;
+}

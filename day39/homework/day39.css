@@ -1,0 +1,9 @@
+.red_dotted{
+    text-decoration: underline overline dotted red ;
+}
+.green_wave{
+    text-decoration: underline wavy green;
+}
+.blue_dotted_center {
+    text-decoration: line-through dotted blue;
+}

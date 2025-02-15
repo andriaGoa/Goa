@@ -1,0 +1,17 @@
+#p1{
+    font-family: cursive;
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p2{
+    font-size: 200px;
+    font-family: monospace;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
