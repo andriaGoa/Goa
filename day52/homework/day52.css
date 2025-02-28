@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transition: 1;
+}
+.div1:hover{
+    transform: translate(20px, 10px);
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transition: 1;
+    border-radius: 50%;
+
+}
+#div2:hover{
+    transform: scale(2);
+    background-color: lawngreen;
+}
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transition: 1;
+}
+#div3:hover{
+    transform: rotate(30deg);
+}
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transition: 1;
+}
+#div4:hover{
+    transform: rotate(180deg);
+    transform: scale(1,5);
+    box-shadow: 0px 0px 15px lightblue;
+}
+
+#div5{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: 1;
+}
+#div5:hover{
+    transform: translate(50px, 100px);
+}
