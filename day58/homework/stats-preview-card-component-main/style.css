@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0a0a23; 
+    margin: 0;
+}
+
+#div1 {
+    width: 700px; 
+    height: 500px;
+    background-color: #1c1c3c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#img1{
+    position: relative;
+    left: -1px;
+    height: 500px;
+}
