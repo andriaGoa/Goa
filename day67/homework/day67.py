@@ -1,1 +1,0 @@
-#ver vipove solo learn
