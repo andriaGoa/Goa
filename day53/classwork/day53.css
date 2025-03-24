@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transition: 2s;
+    border-top-left-radius: 100%;
+}
+#div1:hover{
+    animation-delay: 2s;
+    transform: rotate(2880deg) translateX(200px); scale: (0.3);
+}
