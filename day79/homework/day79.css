@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+p{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+button{
+    background-color: gray;
+    border-radius: 8px;
+    width: 100px;
+    position: relative;
+
+}
+button:hover {
+    background-color: darkgreen;
+}
