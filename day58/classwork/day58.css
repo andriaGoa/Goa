@@ -1,0 +1,42 @@
+#div1{
+    width: 600px;
+    height: 450px;
+    background-color: hsl(263, 55%, 52%);
+}
+img{
+    border-radius: 45%;
+    height: 30px;
+    width: 30px;
+}
+#div2{
+    height: 450px;
+    width: 200px;
+    background-color:hsl(217, 19%, 35%) ;
+    position: relative;
+    left:600px ;
+    bottom: 450px;
+}
+#div3{
+    height: 250px;
+    width: 200px;
+    background-color: hsl(214, 17%, 92%);
+    position: relative;
+    top: 170px;
+    right: 600px;
+}
+#div4{
+    width: 600px;
+    height: 250px;
+    background-color: hsl(219, 29%, 14%);
+    position: relative;
+    bottom: 82px;
+    right: 400px;
+}
+#div5{
+    height: 1200px;
+    width: 250px;
+    background-color: hsl(260, 100%, 95%);
+    position: relative;
+    bottom: 783px;
+    left: 200px;
+}
