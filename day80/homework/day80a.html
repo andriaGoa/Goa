@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day79.css">
+</head>
+<body>
+    <h1>lion</h1>
+    <p>the lion is the king of the jungle its very beautiful and often acisiated with pride and king since its the king of the jungle lions often hunt in families  It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs. Groups of female lions usually hunt together, preying mostly on medium-sized and large ungulates. The lion is an apex and keystone predator.</p>
+    <p>its often also aciciated with people in diminant sports like leonel messi and cristiano ronaldo</p>
+    <button id="previous">previous</button>
+    <img src="download.jpg" alt="">
+    <button id="next">next</button>
+    <button id="img">img</button>
+    <button onclick="saveLion()">Click to Save a Lion</button>
+    <p id="message"></p>
+
+    <script>
+        function saveLion() {
+            document.getElementById("message").innerText = "Congrats! You saved a lion!";
+        }
+        let images = ["download.jpg","OIP.jpg","OSK.jpg"]
+const previous = document.getElementById("previous")
+const next = document.getElementById("next")
+const img = document.querySelector("img")
+
+
+function show(index){
+    if(index < 0){
+        currIndex = images.length -1
+    }else if (index >=  images.length){
+        currIndex = 0
+    }else{
+        currIndex =  index
+    }
+    img.src = images[currIndex]
+}
+
+
+let index = 0
+
+previous.addEventListener("click",function(){
+    index --
+    show(index)
+})
+
+next.addEventListener("click",function(){
+    index ++
+    show(index)
+})
+    </script>
+    
+</body>
+</html>
