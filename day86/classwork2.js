@@ -1,5 +1,5 @@
-const Myname = "გიორგი";
-const Username = prompt("შეიყვანე შენი სახელი:");
+const Myname = "Andria";
+const Username = prompt("Enter your name:");
 if (Username === Myname) {
     console.log(Myname);
 }

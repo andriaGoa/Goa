@@ -1,0 +1,13 @@
+.clickable {
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.2s;
+  }
+
+  .clickable:hover {
+    background-color: #f0f0f0;
+  }
